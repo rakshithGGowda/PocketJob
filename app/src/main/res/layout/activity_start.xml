@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qwe_background"
+    tools:context=".start">
+
+    <Button
+        android:id="@+id/cbt"
+        android:layout_width="166dp"
+        android:layout_height="62dp"
+        android:layout_x="103dp"
+        android:layout_y="282dp"
+        android:text="Company Login"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/sbt"
+        style="@android:style/Widget.Button"
+        android:layout_width="166dp"
+        android:layout_height="62dp"
+        android:layout_x="103dp"
+        android:layout_y="373dp"
+        android:text="Student Login"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="114dp"
+        android:layout_height="109dp"
+        android:layout_x="129dp"
+        android:layout_y="100dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="88dp"
+        tools:text="LOGO" />
+</AbsoluteLayout>

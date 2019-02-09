@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rty_background"
+    tools:context=".MainActivity">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="256dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="94dp"
+        android:layout_height="73dp"
+        android:layout_x="143dp"
+        android:layout_y="63dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="57dp"
+        tools:text="LOGO" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="319dp"
+        android:text="Sign up"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="345dp"
+        tools:text="Sign up" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_x="195dp"
+        android:layout_y="320dp"
+        android:text="Sign In"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="312dp"
+        tools:text="Sign In" />
+
+
+</AbsoluteLayout>
+
+

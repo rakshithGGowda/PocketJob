@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgotpass">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="219dp"
+        android:layout_height="116dp"
+        android:layout_x="84dp"
+        android:layout_y="67dp"
+        android:text="The Reset Link will be sent to the below Email account and Reset your password in it"
+        android:textColor="#000000"
+        tools:fontFamily="serif"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/emailu"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_x="11dp"
+        android:layout_y="224dp"
+        android:background="@drawable/edittext_bg"
+        android:hint=" Valid Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint" />
+
+    <Button
+        android:id="@+id/sentreq"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_x="41dp"
+        android:layout_y="365dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:text="Sent Mail"
+        android:textColor="#fff" />
+</AbsoluteLayout>

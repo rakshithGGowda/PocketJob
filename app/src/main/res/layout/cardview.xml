@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    app:cardBackgroundColor="#D0D8FA"
+    app:cardCornerRadius="12dp">
+
+    <RelativeLayout
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img"
+            android:text="Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra)"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cname"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/img"
+            android:text="13.3 Inch, 256 GB"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/img"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="4.7"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRating"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/img"
+            android:text="INR 500"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <!--<com.like.LikeButton-->
+        <!--android:id="@+id/star_button"-->
+        <!--android:layout_width="83dp"-->
+        <!--android:layout_height="22dp"-->
+        <!--android:layout_below="@+id/img"-->
+        <!--android:layout_toEndOf="@+id/salary"-->
+        <!--app:icon_size="22dp"-->
+        <!--app:icon_type="star"-->
+        <!--app:liked="true" />-->
+
+        <!--<com.like.LikeButton-->
+        <!--android:id="@+id/thumb_button"-->
+        <!--android:layout_width="85dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_below="@id/textViewRating"-->
+        <!--android:layout_marginTop="-15dp"-->
+        <!--android:layout_toRightOf="@id/star_button"-->
+        <!--app:circle_end_color="@android:color/holo_blue_dark"-->
+        <!--app:circle_start_color="@android:color/holo_blue_bright"-->
+        <!--app:dots_primary_color="@android:color/holo_blue_light"-->
+        <!--app:dots_secondary_color="@android:color/holo_blue_dark"-->
+        <!--app:icon_size="22dp"-->
+        <!--app:like_drawable="@drawable/thumb_on"-->
+        <!--app:unlike_drawable="@drawable/thumb_off" />-->
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

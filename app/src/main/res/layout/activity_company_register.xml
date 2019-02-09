@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".company_register">
+
+
+    <EditText
+        android:id="@+id/companyname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_x="1dp"
+        android:layout_y="73dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="company Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint" />
+
+
+    <!-- Login Button -->
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_x="38dp"
+        android:layout_y="374dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:text="Upload Company Images"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="146dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="owner email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_x="0dp"
+        android:layout_y="230dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_x="6dp"
+        android:layout_y="310dp"
+        android:background="@drawable/edittext_bg"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:id="@+id/cosign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="116dp"
+        android:layout_y="447dp"
+        android:text="Already member Sign In"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+</AbsoluteLayout>
